@@ -1,3 +1,4 @@
+
 spring:
   application:
     name: config-client
@@ -10,7 +11,7 @@ spring:
         enabled: true
         serviceId: config-server
 server:
-  port: 8766
+  port: 8767
 eureka:
   client:
     serviceUrl:

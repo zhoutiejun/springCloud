@@ -1,4 +1,4 @@
-package com.eureka.configclient;
+package com.eureka.configclientclient1;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @RestController
 @RefreshScope
-public class ConfigClientApplication {
+public class ConfigClientClient1Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigClientApplication.class, args);
+		SpringApplication.run(ConfigClientClient1Application.class, args);
 	}
 
 	@Value("${server.port}")
