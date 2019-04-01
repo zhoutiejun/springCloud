@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/zhoutiejun/springCloud/tree/master
-          searchPaths: helloWorldConfig
+          uri: https://github.com/zhoutiejun/springCloud
+          searchPaths: tree/master/helloWorldConfig
   application:
     name: config-server
